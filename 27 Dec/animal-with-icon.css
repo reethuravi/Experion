@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    min-height: 100vh;
+}
+.container{
+    background-color: rgb(245, 203, 211);
+    color: rgb(247, 247, 247);
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    min-height: 65px;
+    min-width: 60px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    background-color: rgb(88, 61, 61);
+    position: absolute;
+}
+.tiger{
+    top: 11vh;
+    left: 13vw;
+}
+.yak{
+    top: 4vh;
+    left: 30vw;
+}
+.fox{
+    top: 21vh;
+    left: 35vw;
+}
+.rhinosauraus{
+    top: 1vh;
+    left: 90vw;
+}
+.elephant{
+    left: 88vw;
+    top: 10vh;
+}
+.lion{
+    top: 84vh;
+    left: 10vh;
+}
+.giraffe{
+    top: 80vh;
+    left: 16vw;
+}
+.leopard{
+    top: 87vh;
+    left: 38vw;
+}
+.iguana{
+    top: 80vh;
+    left: 88vw;
+}
+.tiger2{
+    top: 85vh;
+    left: 93vw;
+}
+
+.tigeremoji{
+    top: -35vh;   
+    left: 13vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.yakemoji{
+    top: -43vh;
+    left: 30vw;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foxemoji{
+    top: -26vh;
+    left: 36vw; 
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rhinosaurausemoji{
+   
+    font-size: 30px;
+   
+   position: absolute;
+   right:45px;
+   top:15px;
+   
+}
+.elephantemoji{
+    
+    font-size: 30px;
+    position: absolute;
+    left: 90vw;
+    top: -38vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lionemoji{
+    top: 36vh;
+    left: 11vh;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.giraffeemoji{
+    top: 31vh;
+    left: 17vw;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leopardemoji{
+    top: 39vh;
+    left: 39vw;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iguanaemoji{
+    top: 33vh;
+    left: 91vw;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tiger2emoji{
+    top: 88vh;
+    left: -38vw;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

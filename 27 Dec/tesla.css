@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    background-image: url(/Assignments/Assignments-images/teslamodel3.png);
+}
+header{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+}
+.logo{
+    background-image: url(/Assignments/Assignments-images/tesla.png);
+}
+.logo >a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style-type: none;
+    margin-left: 3px;
+    text-decoration: none;
+}
+li >a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+h1,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 60vh;
+    height: 35px;
+    width: 180px;
+}
+.button1{
+    border: none;
+    background-color: black;
+    color: white;
+    margin-left: 45vw;
+}
+.button2{
+    border: none;
+    background-color: white;
+    color:black;
+    margin-left: 58vw;
+}

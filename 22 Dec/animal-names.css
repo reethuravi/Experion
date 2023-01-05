@@ -1,0 +1,19 @@
+*{
+    background-color: rgb(17, 248, 248);
+}
+.box{
+    min-height: 10px;
+    min-width: 50px;
+    display: grid;
+    gap: 50px 50px;
+    grid-template-columns: auto auto auto auto;
+    padding: 50px;
+}
+.box > div{
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(28, 145, 163);
+    color: rgb(255, 255, 255);
+}
+
