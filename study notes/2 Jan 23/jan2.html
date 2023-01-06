@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is a paragraph</p>
+    <script>
+        // multiple errors can't be done. just one eror.
+        alert('This ia an alert');
+        // Confirmation
+        let log = confirm('Do you want to log out?');
+        console.log(log);
+        if (log) {
+            // write logic for logout
+            console.log('User logged out successfully');
+        } 
+
+        //prompt is used to get an input
+
+        const name = prompt('Enter your name');
+        console.log('You are', name);
+
+    </script>
+
+    <p id="p1">Default content</p>
+    <script>
+        // document.write('Hello World!!!'); // text
+        // document.write('<p>HIII</p>'); //paragraph
+
+        const element = document.getElementById(p1);
+        // console.log(element); // to print element
+        // element.innerText = 'New Text'; or
+        // console.log(element.innerText);
+        element.style.color = 'red' ;// to change color of text by using js
+    </script>
+</body>
+</html>

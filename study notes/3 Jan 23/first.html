@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+ <!-- onclick -->
+    <input type="text" onclick="executeEvent(event)" tabindex="1" id="target">
+<!-- onfocus -->
+    <input type="text" onfocus="executeEvents(event)" tabindex="1" id="target">
+    <button onclick="selectTextBox()">Select the event</button>
+<!-- onkeyup   -->
+    <input type="text" onkeyup="exeEvents(event)" tabindex="1" id="target">
+    <h1 id="res">result</h1>
+<!-- onchange -->
+    <hr>
+    <div id="divi" style="height: 150px; background-color: aqua;"></div>
+    <hr>
+    <input type="range" min="10" max="100" value="50" onchange="exec(eve)">
+
+<!-- querySelectorAll -->
+    <button>Click me</button>
+    <button>Click me</button>
+    <div>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+    </div>
+    <button>Click</button>
+    <button>Click</button>
+    <button>Click</button>
+
+<script>
+// onclick
+        function executeEvent(e) {
+            console.log(e);
+        }
+
+// onfocus        
+        const target = document.getElementById('target');
+        
+        function selectTextBox() {
+            target.focus();
+        };
+
+        function executeEvent(e) {
+            console.log(e);
+        }
+// onkeyup,innertext will change
+        const result = document.getElementById('res'); 
+        function exeEvents(e) {
+            result.innerText = e.target.value;
+        }
+
+// onchange
+    const di = document.getElementById('divi');
+    function exec(e){
+        di.style.width = `${e.target.value}px`;
+    }
+
+// queryselectorAll()
+    const query = document.querySelectorAll('button');     
+ 
+// queryselectorAll() inside a div
+    const querydiv = document.querySelectorAll('div button');
+    button.forEach(btn => {
+        btn.style.backgroundColor = 'teal';
+    });
+
+// addEventListner
+    document.querySelectorAll('button').forEach(btns => {
+        btns.addEventListener('click',e) =>{
+        e.target.innerText = 'clicked';
+}
+    });
+
+    </script>
+</body>
+</html>

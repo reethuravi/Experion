@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p id="=p1">Hello World</p> -->
+    <p id="p1">This is a paragraph</p>
+    <p id="p2" style="color: aqua;">This is a paragraph</p>
+    <p>This is a paragraph</p>
+    <p>This is a paragraph</p>
+
+    <input id='c1' type="checkbox">Select this
+    <!-- <button onclick="buttonClick(event)">Click</button> -->
+     <script>
+    //     // let ele= document.getElementById('p1')
+    //     // ele.style.color = 'blue';
+    //     function buttonClick(e) {
+    //         console.log('button clicked');
+    //         console.log(e);
+    //         e.target.innerText = 'Clicked';
+    //     }//  change the text after clicking.
+    
+    // // To change the text in paragraph tag
+
+    // var e = document.getElementsByTagName('p');
+    // for (let i = 0; i < e.length; i++) {
+    //     const element = e[i] ;
+    //     element.innerText = 'New Text2'
+    // }
+
+
+    // To remove attributes
+        document.getElementById('p1').remove();
+        document.getElementById('p2').removeAttribute('style');
+
+    // TO set attribute
+        document.getElementById('c1').setAttribute('checked','cehcked');
+        
+        // To get attribute
+        let result = document.getElementById('c1').getAttribute('type');
+        console.log(result);
+
+
+</script>
+</body>
+</html>

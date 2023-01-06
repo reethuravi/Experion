@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- find parent elemnet -->
+    <div>
+        <h1 p="target">Main</h1>
+    </div>
+
+
+
+
+    <script>
+        //append child
+        var ele = document.createElement('h1');
+        ele.innerText = 'H1 tag';
+        document.body.appendChild(ele);
+   
+   //find parent element
+    
+   const target = document.querySelector('#target');
+   console.log(target.parentElement);
+
+//json
+   const student = {
+    name : 'Ammu',
+    age:21,
+    mark1: 20,
+    mark2: 24
+};
+const studentdata = JSON.stringify(student,null,4);
+console.log(data);
+   </script>
+
+
+
+
+
+</body>
+</html>
